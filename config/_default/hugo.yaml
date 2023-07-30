@@ -1,10 +1,5 @@
 baseURL: http://example.org/
-
-# Change the default theme to be used when building the site with Hugo
 theme: LoveIt
-
-# website title
-title: My New Hugo Site
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode: en
@@ -28,22 +23,18 @@ menu:
       post: ""
       name: Posts
       url: /posts/
-      # title will be shown when you hover on this menu link
-      title: ""
     - weight: 2
       identifier: tags
       pre: ""
       post: ""
       name: Tags
       url: /tags/
-      title: ""
     - weight: 3
       identifier: categories
       pre: ""
       post: ""
       name: Categories
       url: /categories/
-      title: ""
 
 # Markup related configuration in Hugo
 markup:
@@ -51,3 +42,5 @@ markup:
   highlight:
     # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses: false
+
+

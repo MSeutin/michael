@@ -2,7 +2,6 @@
 title: "Short Circuiting Part1"
 date: 2023-07-30T00:29:37-07:00
 draft: false
-author: Michael
 featuredImage: /images/short.jpeg
 featuredImagePreview: /images/short.jpeg
 

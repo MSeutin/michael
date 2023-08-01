@@ -1,113 +1,108 @@
-params:
-  # site default theme ["auto", "light", "dark"]
-  defaultTheme: "auto"
-  # public git repo URL only then enableGitInfo is true
-  gitRepo: ""
-  fingerprint: ""
-  dateFormat: "2006-01-02"
-  # website title for Open Graph and Twitter Cards
-  title: "My site"
-  # website description for RSS, SEO, Open Graph and Twitter Cards
-  description: "This is me Michael"
-  # website images for Open Graph and Twitter Cards
-  images: []
+# site default theme ["auto", "light", "dark"]
+defaultTheme: "auto"
+# public git repo URL only then enableGitInfo is true
+gitRepo: ""
+fingerprint: ""
+dateFormat: "2006-01-02"
+# website title for Open Graph and Twitter Cards
+title: "My site"
+# website description for RSS, SEO, Open Graph and Twitter Cards
+description: "This is me Michael"
+# website images for Open Graph and Twitter Cards
+images: []
 
-  # Header config
-  header:
-    # desktop header mode ["fixed", "normal", "auto"]
-    desktopMode: "fixed"
-    # mobile header mode ["fixed", "normal", "auto"]
-    mobileMode: "auto"
-    # Header title config
-    title:
-      # URL of the LOGO
-      logo: ""
-      # title name
-      name: Michael
-      # you can add extra information before the name (HTML format is supported), such as icons
-      pre: ""
-      # you can add extra information after the name (HTML format is supported), such as icons
-      post: ""
-      # whether to use typeit animation for title name
-      typeit: false
+# Header config
+header:
+  # desktop header mode ["fixed", "normal", "auto"]
+  desktopMode: "fixed"
+  # mobile header mode ["fixed", "normal", "auto"]
+  mobileMode: "auto"
+  # Header title config
+  title:
+    # URL of the LOGO
+    logo: ""
+    # title name
+    name: Michael
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre: '<i class="fas fa-user-ninja"></i>'
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post: ""
+    # whether to use typeit animation for title name
+    typeit: false
 
-  # Footer config
-  # 页面底部信息配置
-  footer:
-    enable: true
-    # Custom content (HTML format is supported)
-    # 自定义内容 (支持 HTML 格式)
-    custom: ""
-    # whether to show Hugo and theme info
-    # 是否显示 Hugo 和主题信息
-    hugo: true
-    # whether to show copyright info
-    # 是否显示版权信息
-    copyright: true
-    # whether to show the author
-    # 是否显示作者
-    author: true
-    # site creation time
-    # 网站创立年份
-    since: 2022
-    # ICP info only in China (HTML format is supported)
-    # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-    icp: ""
-    # license info (HTML format is supported)
-    # 许可协议信息 (支持 HTML 格式)
-    license: ""
+# Footer config
+# 页面底部信息配置
+footer:
+  enable: true
+  # Custom content (HTML format is supported)
+  # 自定义内容 (支持 HTML 格式)
+  custom: ""
+  # whether to show Hugo and theme info
+  # 是否显示 Hugo 和主题信息
+  hugo: false
+  # whether to show copyright info
+  # 是否显示版权信息
+  copyright: true
+  # whether to show the author
+  # 是否显示作者
+  author: true
+  # site creation time
+  # 网站创立年份
+  since: 2022
+  # ICP info only in China (HTML format is supported)
+  # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
+  icp: ""
+  # license info (HTML format is supported)
+  # 许可协议信息 (支持 HTML 格式)
+  license: ""
 
-  # Section (all posts) page config
-  # Section (所有文章) 页面配置
-  section:
-    # special amount of posts in each section page
-    # section 页面每页显示文章数量
-    paginate: 20
-    # date format (month and day)
-    # 日期格式 (月和日)
-    dateFormat: "01-02"
-    # amount of RSS pages
-    # RSS 文章数目
-    rss: 10
+# Section (all posts) page config
+# Section (所有文章) 页面配置
+section:
+  # special amount of posts in each section page
+  # section 页面每页显示文章数量
+  paginate: 20
+  # date format (month and day)
+  # 日期格式 (月和日)
+  dateFormat: "01-02"
+  # amount of RSS pages
+  # RSS 文章数目
+  rss: 10
 
-  # List (category or tag) page config
-  # List (目录或标签) 页面配置
-  list:
-    # special amount of posts in each list page
-    # list 页面每页显示文章数量
-    paginate: 20
-    # date format (month and day)
-    # 日期格式 (月和日)
-    dateFormat: "01-02"
-    # amount of RSS pages
-    # RSS 文章数目
-    rss: 10
+# List (category or tag) page config
+# List (目录或标签) 页面配置
+list:
+  # special amount of posts in each list page
+  # list 页面每页显示文章数量
+  paginate: 20
+  # date format (month and day)
+  # 日期格式 (月和日)
+  dateFormat: "01-02"
+  # amount of RSS pages
+  # RSS 文章数目
+  rss: 10
 
 # home page config
-  home:
-    rss: 10
-    profile:
-      enable: true
-      gravatarEmail: ""
-      avatarURL: "/images/pullup1.png"
-      title: ""
-      subtitle: "This is Michael's Blog"
-      typeit: true
-      social: true
-      disclaimer: ""
-    posts:
-      enable: true
-      paginate: 6
-      defaultHiddenFromHomePage: false
+home:
+  rss: 10
+  profile:
+    enable: true
+    gravatarEmail: ""
+    avatarURL: "/images/palm-trees.png"
+    title: ""
+    subtitle: "This is Michael's Blog"
+    typeit: true
+    social: true
+    disclaimer: ""
+  posts:
+    enable: true
+    paginate: 6
+    defaultHiddenFromHomePage: false
 
-  # social config
-  social:
-    GitHub: "https://github.com/MSeutin"
-    Linkedin: "https://twitter.com/frenchmike1"
-    Twitter: "xxxx"
-    Instagram: "xxxx"
-    Facebook: "xxxx"
-    Telegram: "xxxx"
-    Medium: ""
-    Gitlab: ""
-    Email: "frenchmike@gmail.com"
+# social config
+social:
+  GitHub: "MSeutin"
+  Linkedin: "michael-seutin-83a4aa21/"
+  Twitter: "frenchmike1"
+  Gitlab: "MSeutin"
+  Email: "frenchmike@gmail.com"

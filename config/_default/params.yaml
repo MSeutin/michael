@@ -1,6 +1,5 @@
 # site default theme ["auto", "light", "dark"]
 defaultTheme: "auto"
-# public git repo URL only then enableGitInfo is true
 gitRepo: ""
 fingerprint: ""
 dateFormat: "2006-01-02"
@@ -17,7 +16,7 @@ header:
   mobileMode: "auto"
   title:
     logo: "/images/emoticon.svg"
-    name: Michael
+    name: ""
     typeit: false
 
 # Footer config
@@ -33,20 +32,14 @@ footer:
 
 # Section (all posts) page config
 section:
-  # special amount of posts in each section page
   paginate: 20
-  # date format (month and day)
   dateFormat: "01-02"
-  # amount of RSS pages
   rss: 10
 
 # List (category or tag) page config
 list:
-  # special amount of posts in each list page
   paginate: 20
-  # date format (month and day)
   dateFormat: "01-02"
-  # amount of RSS pages
   rss: 10
 
 # home page config
@@ -56,8 +49,8 @@ home:
     enable: true
     gravatarEmail: ""
     avatarURL: "/images/palm-trees.png"
-    title: ""
-    subtitle: "This is Michael's Blog"
+    title: "Hey, I am Michael"
+    subtitle: "Web Dev | Math | Tropics"
     typeit: true
     social: true
     disclaimer: ""
@@ -73,3 +66,4 @@ social:
   Twitter: "frenchmike1"
   Gitlab: "MSeutin"
   Email: "frenchmike@gmail.com"
+  RSS: false

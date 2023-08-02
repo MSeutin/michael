@@ -4,6 +4,15 @@ date: 2023-07-30T00:33:11-07:00
 draft: false
 featuredImage: /images/and.jpeg
 featuredImagePreview: /images/and.jpeg
+description:
+keywords:
+tags:
+  - js
+categories: 
+comment:
+seo:
+menu:
+repost:
 ---
 
 ## Part 2 (logical AND)

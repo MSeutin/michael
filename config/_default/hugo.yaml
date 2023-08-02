@@ -1,17 +1,15 @@
 baseURL: http://example.org/
 theme: FixIt
 
-# language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode: en
-# language name ["English", "简体中文", "Français", "Polski", ...]
 languageName: English
 
 # Author config
 author:
-  name: Michael
+  name: "Michael"
   email: "frenchmike@gmail.com"
   link: ""
-
+  avatar: "/images/emoticon.png"
 
 # Markup related configuration in Hugo
 markup:

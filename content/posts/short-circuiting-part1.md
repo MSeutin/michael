@@ -4,7 +4,15 @@ date: 2023-07-30T00:29:37-07:00
 draft: false
 featuredImage: /images/short.jpeg
 featuredImagePreview: /images/short.jpeg
-
+description: 
+keywords:
+tags:
+  - js
+categories: 
+comment:
+seo:
+menu:
+repost:
 ---
 
 # JS Short Circuiting to Shorten your Code - Part 1 (Logical OR)

@@ -1,15 +1,34 @@
 # Menu config
 main:
   - identifier: posts
-    name: Posts
+    post: <i class="fa-solid fa-chevron-down"></i>
+    name: "posts"
     url: /posts/
     weight: 1
+    params:
+      icon: fa-solid fa-pen
   - identifier: categories
-    name: "Categories"
+    name: "categories"
     url: /categories/
     title: ""
     weight: 2
+    params:
+      icon: fa-regular fa-folder
   - identifier: tags
-    name: Tags
+    name: "tags"
     url: /tags/
     weight: 3
+    params:
+      icon: fa-solid fa-tag
+  - identifier: apps
+    name: "apps"
+    url: /apps/
+    weight: 4
+    params:
+      icon: fa-brands fa-app-store text-danger
+  - identifier: about
+    name: "info"
+    url: /about/
+    weight: 5
+    params:
+      icon: fa-solid fa-circle-info

@@ -9,13 +9,13 @@
 <meta name="author-link" content="">
 <meta name="description" content="JS Short Circuiting to Shorten your Code - Part 1 (Logical OR) In JavaScript, we can utilize short-circuiting using || (logical OR) or the &amp;&amp; (logical AND) operators. This article focuses on the logical OR (||) operator and provides an example of how to use it to simplify code.
 Logical OR || Examples Try to guess and test them yourself
-true || false // OUTPUT: true (1st value evaluated) false || true // OUTPUT: true (2nd value evaluated) false || false // OUTPUT: false (2nd value evaluated) // other variants of the above 3." /><meta name="keywords" content='Hugo, FixIt' /><meta itemprop="name" content="Short Circuiting Part1">
+true || false // OUTPUT: true (1st value evaluated) false || true // OUTPUT: true (2nd value evaluated) false || false // OUTPUT: false (2nd value evaluated) // other variants of the above 3." /><meta name="keywords" content='js' /><meta itemprop="name" content="Short Circuiting Part1">
 <meta itemprop="description" content="JS Short Circuiting to Shorten your Code - Part 1 (Logical OR) In JavaScript, we can utilize short-circuiting using || (logical OR) or the &amp;&amp; (logical AND) operators. This article focuses on the logical OR (||) operator and provides an example of how to use it to simplify code.
 Logical OR || Examples Try to guess and test them yourself
 true || false // OUTPUT: true (1st value evaluated) false || true // OUTPUT: true (2nd value evaluated) false || false // OUTPUT: false (2nd value evaluated) // other variants of the above 3."><meta itemprop="datePublished" content="2023-07-30T00:29:37-07:00" />
 <meta itemprop="dateModified" content="2023-07-30T00:29:37-07:00" />
 <meta itemprop="wordCount" content="710">
-<meta itemprop="keywords" content="" /><meta property="og:title" content="Short Circuiting Part1" />
+<meta itemprop="keywords" content="js," /><meta property="og:title" content="Short Circuiting Part1" />
 <meta property="og:description" content="JS Short Circuiting to Shorten your Code - Part 1 (Logical OR) In JavaScript, we can utilize short-circuiting using || (logical OR) or the &amp;&amp; (logical AND) operators. This article focuses on the logical OR (||) operator and provides an example of how to use it to simplify code.
 Logical OR || Examples Try to guess and test them yourself
 true || false // OUTPUT: true (1st value evaluated) false || true // OUTPUT: true (2nd value evaluated) false || false // OUTPUT: false (2nd value evaluated) // other variants of the above 3." />
@@ -40,10 +40,10 @@ true || false // OUTPUT: true (1st value evaluated) false || true // OUTPUT: tru
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "http:\/\/example.org\/posts\/short-circuiting-part1\/"
-    },"genre": "posts","wordcount":  710 ,
+    },"genre": "posts","keywords": "js","wordcount":  710 ,
     "url": "http:\/\/example.org\/posts\/short-circuiting-part1\/","datePublished": "2023-07-30T00:29:37-07:00","dateModified": "2023-07-30T00:29:37-07:00","publisher": {
       "@type": "Organization",
-      "name": ""},"author": {
+      "name": "Michael"},"author": {
         "@type": "Person",
         "name": "Michael"
       },"description": ""
@@ -52,7 +52,7 @@ true || false // OUTPUT: true (1st value evaluated) false || true // OUTPUT: tru
   <body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage?.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('data-theme', 'dark');</script><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
   <div class="header-wrapper">
     <div class="header-title">
-      <a href="/" title=""><span class="header-title-pre"><i class="fas fa-user-ninja"></i></span><span class="header-title-text">Michael</span></a><span class="header-subtitle"></span></div>
+      <a href="/" title=""><img loading="lazy" src="/images/emoticon.svg" srcset="/images/emoticon.svg, /images/emoticon.svg 1.5x, /images/emoticon.svg 2x" sizes="auto" data-title="/images/emoticon.svg" data-alt="/images/emoticon.svg" class="logo" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/><span class="header-title-text"></span></a><span class="header-subtitle"></span></div>
     <nav>
       <ul class="menu"><li class="menu-item">
               <a
@@ -60,19 +60,31 @@ true || false // OUTPUT: true (1st value evaluated) false || true // OUTPUT: tru
                 href="/posts/"
                 
                 
-              >Posts</a></li><li class="menu-item">
+              ><i class="fa-solid fa-pen fa-fw fa-sm" aria-hidden="true"></i> posts</a></li><li class="menu-item">
               <a
                 class="menu-link"
                 href="/categories/"
                 
                 
-              >Categories</a></li><li class="menu-item">
+              ><i class="fa-regular fa-folder fa-fw fa-sm" aria-hidden="true"></i> categories</a></li><li class="menu-item">
               <a
                 class="menu-link"
                 href="/tags/"
                 
                 
-              >Tags</a></li><li class="menu-item delimiter"></li><li class="menu-item theme-switch" title="Switch Theme">
+              ><i class="fa-solid fa-tag fa-fw fa-sm" aria-hidden="true"></i> tags</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/apps/"
+                
+                
+              ><i class="fa-brands fa-app-store text-danger fa-fw fa-sm" aria-hidden="true"></i> apps</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/about/"
+                
+                
+              ><i class="fa-solid fa-circle-info fa-fw fa-sm" aria-hidden="true"></i> info</a></li><li class="menu-item delimiter"></li><li class="menu-item theme-switch" title="Switch Theme">
           <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
         </li></ul>
     </nav>
@@ -81,7 +93,7 @@ true || false // OUTPUT: true (1st value evaluated) false || true // OUTPUT: tru
   <div class="header-container">
     <div class="header-wrapper">
       <div class="header-title">
-        <a href="/" title=""><span class="header-title-pre"><i class="fas fa-user-ninja"></i></span><span class="header-title-text">Michael</span></a><span class="header-subtitle"></span></div>
+        <a href="/" title=""><img loading="lazy" src="/images/emoticon.svg" srcset="/images/emoticon.svg, /images/emoticon.svg 1.5x, /images/emoticon.svg 2x" sizes="auto" data-title="/images/emoticon.svg" data-alt="/images/emoticon.svg" class="logo" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/><span class="header-title-text"></span></a><span class="header-subtitle"></span></div>
       <div class="menu-toggle" id="menu-toggle-mobile">
         <span></span><span></span><span></span>
       </div>
@@ -94,21 +106,35 @@ true || false // OUTPUT: true (1st value evaluated) false || true // OUTPUT: tru
                   href="/posts/"
                   
                   
-                >Posts</a></li><li
+                ><i class="fa-solid fa-pen fa-fw fa-sm" aria-hidden="true"></i> posts</a></li><li
               class="menu-item"
             ><a
                   class="menu-link"
                   href="/categories/"
                   
                   
-                >Categories</a></li><li
+                ><i class="fa-regular fa-folder fa-fw fa-sm" aria-hidden="true"></i> categories</a></li><li
               class="menu-item"
             ><a
                   class="menu-link"
                   href="/tags/"
                   
                   
-                >Tags</a></li><li class="menu-item menu-system">
+                ><i class="fa-solid fa-tag fa-fw fa-sm" aria-hidden="true"></i> tags</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/apps/"
+                  
+                  
+                ><i class="fa-brands fa-app-store text-danger fa-fw fa-sm" aria-hidden="true"></i> apps</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/about/"
+                  
+                  
+                ><i class="fa-solid fa-circle-info fa-fw fa-sm" aria-hidden="true"></i> info</a></li><li class="menu-item menu-system">
           <span class="menu-system-item theme-switch" title="Switch Theme"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
       </ul>
     </nav>
@@ -122,8 +148,7 @@ true || false // OUTPUT: true (1st value evaluated) false || true // OUTPUT: tru
   <article class="page single">
     <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>Short Circuiting Part1</span>
       </h1></div><div class="post-meta">
-      <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
-      Michael</span></span></div>
+      <div class="post-meta-line"><span class="post-author"><span class="author"><img loading="lazy" src="/images/emoticon.png" srcset="/images/emoticon.png, /images/emoticon.png 1.5x, /images/emoticon.png 2x" sizes="auto" data-title="Michael" data-alt="Michael" width="800" height="800" class="avatar" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/>&nbsp;Michael</span></span></div>
       <div class="post-meta-line"><span title="published on 2023-07-30 00:29:37"><i class="fa-regular fa-calendar-alt fa-fw me-1" aria-hidden="true"></i><time datetime="2023-07-30">2023-07-30</time></span>&nbsp;<span title="Updated on 2023-07-30 00:29:37"><i class="fa-regular fa-edit fa-fw me-1" aria-hidden="true"></i><time datetime="2023-07-30">2023-07-30</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>710 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>4 minutes</span>&nbsp;</div>
     </div><div class="featured-image"><img loading="lazy" src="/images/short.jpeg" srcset="/images/short.jpeg, /images/short.jpeg 1.5x, /images/short.jpeg 2x" sizes="auto" data-title="/images/short.jpeg" data-alt="/images/short.jpeg" width="4096" height="2926" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></div><div class="details toc" id="toc-static" data-kept="false">
         <div class="details-summary toc-title">
@@ -239,8 +264,8 @@ Similarly, if <code>person2.age</code> is not defined (<code>undefined</code>) o
     <div class="post-info-line">
       <div class="post-info-md"></div>
       <div class="post-info-share">
-        <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://example.org/posts/short-circuiting-part1/" data-title="Short Circuiting Part1" data-via="frenchmike1"><i class="fa-brands fa-twitter fa-fw" aria-hidden="true"></i></a>
-  <a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://example.org/posts/short-circuiting-part1/"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+        <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://example.org/posts/short-circuiting-part1/" data-title="Short Circuiting Part1" data-via="frenchmike1" data-hashtags="js"><i class="fa-brands fa-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://example.org/posts/short-circuiting-part1/" data-hashtag="js"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
   <a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://example.org/posts/short-circuiting-part1/" data-title="Short Circuiting Part1" data-image="/images/short.jpeg"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
   </span>
       </div>
@@ -248,7 +273,7 @@ Similarly, if <code>person2.age</code> is not defined (<code>undefined</code>) o
   </div>
 
   <div class="post-info-more">
-    <section class="post-tags"></section>
+    <section class="post-tags"><i class="fa-solid fa-tags fa-fw me-1" aria-hidden="true"></i><a href='/tags/js/' class="post-tag">js</a></section>
     <section>
       <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
     </section>

@@ -2,9 +2,9 @@
   <channel>
     <title></title>
     <link>http://example.org/</link>
-    <description>This is me Michael</description>
+    <description>Welcome to my digital space, where I explore mindset, success, math, and build web apps</description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>frenchmike@gmail.com (Michael)</managingEditor>
-      <webMaster>frenchmike@gmail.com (Michael)</webMaster><lastBuildDate>Sun, 30 Jul 2023 00:33:11 -0700</lastBuildDate>
+      <webMaster>frenchmike@gmail.com (Michael)</webMaster><lastBuildDate>Wed, 02 Aug 2023 02:08:27 -0700</lastBuildDate>
       <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
   <title>Short Circuiting Part2</title>

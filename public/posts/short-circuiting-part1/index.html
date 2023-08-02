@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="robots" content="noodp" />
-        <title>Short Circuiting Part1 - </title><meta name="Description" content="This is me Michael"><meta property="og:title" content="Short Circuiting Part1" />
+<html itemscope itemtype="http://schema.org/WebPage" lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="robots" content="noodp" />
+    <title>Short Circuiting Part1 - </title><meta name="author" content="Michael">
+<meta name="author-link" content="">
+<meta name="description" content="JS Short Circuiting to Shorten your Code - Part 1 (Logical OR) In JavaScript, we can utilize short-circuiting using || (logical OR) or the &amp;&amp; (logical AND) operators. This article focuses on the logical OR (||) operator and provides an example of how to use it to simplify code.
+Logical OR || Examples Try to guess and test them yourself
+true || false // OUTPUT: true (1st value evaluated) false || true // OUTPUT: true (2nd value evaluated) false || false // OUTPUT: false (2nd value evaluated) // other variants of the above 3." /><meta name="keywords" content='Hugo, FixIt' /><meta itemprop="name" content="Short Circuiting Part1">
+<meta itemprop="description" content="JS Short Circuiting to Shorten your Code - Part 1 (Logical OR) In JavaScript, we can utilize short-circuiting using || (logical OR) or the &amp;&amp; (logical AND) operators. This article focuses on the logical OR (||) operator and provides an example of how to use it to simplify code.
+Logical OR || Examples Try to guess and test them yourself
+true || false // OUTPUT: true (1st value evaluated) false || true // OUTPUT: true (2nd value evaluated) false || false // OUTPUT: false (2nd value evaluated) // other variants of the above 3."><meta itemprop="datePublished" content="2023-07-30T00:29:37-07:00" />
+<meta itemprop="dateModified" content="2023-07-30T00:29:37-07:00" />
+<meta itemprop="wordCount" content="710">
+<meta itemprop="keywords" content="" /><meta property="og:title" content="Short Circuiting Part1" />
 <meta property="og:description" content="JS Short Circuiting to Shorten your Code - Part 1 (Logical OR) In JavaScript, we can utilize short-circuiting using || (logical OR) or the &amp;&amp; (logical AND) operators. This article focuses on the logical OR (||) operator and provides an example of how to use it to simplify code.
 Logical OR || Examples Try to guess and test them yourself
 true || false // OUTPUT: true (1st value evaluated) false || true // OUTPUT: true (2nd value evaluated) false || false // OUTPUT: false (2nd value evaluated) // other variants of the above 3." />
@@ -17,77 +28,109 @@ true || false // OUTPUT: true (1st value evaluated) false || true // OUTPUT: tru
 <meta name="twitter:description" content="JS Short Circuiting to Shorten your Code - Part 1 (Logical OR) In JavaScript, we can utilize short-circuiting using || (logical OR) or the &amp;&amp; (logical AND) operators. This article focuses on the logical OR (||) operator and provides an example of how to use it to simplify code.
 Logical OR || Examples Try to guess and test them yourself
 true || false // OUTPUT: true (1st value evaluated) false || true // OUTPUT: true (2nd value evaluated) false || false // OUTPUT: false (2nd value evaluated) // other variants of the above 3."/>
-<meta name="application-name" content="My cool site">
-<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/posts/short-circuiting-part1/" /><link rel="next" href="http://example.org/posts/short-circuiting-part2/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "BlogPosting",
-        "headline": "Short Circuiting Part1",
-        "inLanguage": "en",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "http:\/\/example.org\/posts\/short-circuiting-part1\/"
-        },"genre": "posts","wordcount":  711 ,
-        "url": "http:\/\/example.org\/posts\/short-circuiting-part1\/","datePublished": "2023-07-30T00:29:37-07:00","dateModified": "2023-07-30T00:29:37-07:00","publisher": {
-            "@type": "Organization",
-            "name": ""},"author": {
-                "@type": "Person",
-                "name": "Michael"
-            },"description": ""
-    }
-    </script></head>
-    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
-
-        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+<meta name="application-name" content="FixIt">
+<meta name="apple-mobile-web-app-title" content="FixIt"><meta name="theme-color" data-light="#f8f8f8" data-dark="#252627" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="canonical" href="http://example.org/posts/short-circuiting-part1/" /><link rel="next" href="http://example.org/posts/short-circuiting-part2/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Short Circuiting Part1",
+    "inLanguage": "en",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "http:\/\/example.org\/posts\/short-circuiting-part1\/"
+    },"genre": "posts","wordcount":  710 ,
+    "url": "http:\/\/example.org\/posts\/short-circuiting-part1\/","datePublished": "2023-07-30T00:29:37-07:00","dateModified": "2023-07-30T00:29:37-07:00","publisher": {
+      "@type": "Organization",
+      "name": ""},"author": {
+        "@type": "Person",
+        "name": "Michael"
+      },"description": ""
+  }
+  </script></head>
+  <body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage?.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('data-theme', 'dark');</script><div class="wrapper" data-page-style="normal"><header class="desktop animate__faster" id="header-desktop">
+  <div class="header-wrapper">
+    <div class="header-title">
+      <a href="/" title=""><span class="header-title-pre"><i class="fas fa-user-ninja"></i></span><span class="header-title-text">Michael</span></a><span class="header-subtitle"></span></div>
+    <nav>
+      <ul class="menu"><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/posts/"
+                
+                
+              >Posts</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/categories/"
+                
+                
+              >Categories</a></li><li class="menu-item">
+              <a
+                class="menu-link"
+                href="/tags/"
+                
+                
+              >Tags</a></li><li class="menu-item delimiter"></li><li class="menu-item theme-switch" title="Switch Theme">
+          <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+        </li></ul>
+    </nav>
+  </div>
+</header><header class="mobile animate__faster" id="header-mobile">
+  <div class="header-container">
     <div class="header-wrapper">
-        <div class="header-title">
-            <a href="/" title=""><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>Michael</a>
-        </div>
-        <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
-                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-                </a></div>
-        </div>
+      <div class="header-title">
+        <a href="/" title=""><span class="header-title-pre"><i class="fas fa-user-ninja"></i></span><span class="header-title-text">Michael</span></a><span class="header-subtitle"></span></div>
+      <div class="menu-toggle" id="menu-toggle-mobile">
+        <span></span><span></span><span></span>
+      </div>
     </div>
-</header><header class="mobile" id="header-mobile">
-    <div class="header-container">
-        <div class="header-wrapper">
-            <div class="header-title">
-                <a href="/" title=""><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i></span>Michael</a>
-            </div>
-            <div class="menu-toggle" id="menu-toggle-mobile">
-                <span></span><span></span><span></span>
-            </div>
+    <nav>
+      <ul class="menu" id="menu-mobile"><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/posts/"
+                  
+                  
+                >Posts</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/categories/"
+                  
+                  
+                >Categories</a></li><li
+              class="menu-item"
+            ><a
+                  class="menu-link"
+                  href="/tags/"
+                  
+                  
+                >Tags</a></li><li class="menu-item menu-system">
+          <span class="menu-system-item theme-switch" title="Switch Theme"><i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i></span></li>
+      </ul>
+    </nav>
+  </div>
+</header><main class="container"><aside class="toc" id="toc-auto"><h2 class="toc-title">Contents&nbsp;<i class="toc-icon fa-solid fa-angle-down fa-fw" aria-hidden="true"></i></h2>
+      <div class="toc-content" id="toc-content-auto"></div></aside>
+
+  <aside class="aside-custom">
+    </aside>
+
+  <article class="page single">
+    <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>Short Circuiting Part1</span>
+      </h1></div><div class="post-meta">
+      <div class="post-meta-line"><span class="post-author"><span class="author"><i class="fa-solid fa-user-circle" aria-hidden="true"></i>
+      Michael</span></span></div>
+      <div class="post-meta-line"><span title="published on 2023-07-30 00:29:37"><i class="fa-regular fa-calendar-alt fa-fw me-1" aria-hidden="true"></i><time datetime="2023-07-30">2023-07-30</time></span>&nbsp;<span title="Updated on 2023-07-30 00:29:37"><i class="fa-regular fa-edit fa-fw me-1" aria-hidden="true"></i><time datetime="2023-07-30">2023-07-30</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>710 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>4 minutes</span>&nbsp;</div>
+    </div><div class="featured-image"><img loading="lazy" src="/images/short.jpeg" srcset="/images/short.jpeg, /images/short.jpeg 1.5x, /images/short.jpeg 2x" sizes="auto" data-title="/images/short.jpeg" data-alt="/images/short.jpeg" width="4096" height="2926" style="background: url(/svg/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;this.alt=this.dataset.alt;for(const a of ['style','data-title','data-alt','onerror','onload']){this.removeAttribute(a);}"/></div><div class="details toc" id="toc-static" data-kept="false">
+        <div class="details-summary toc-title">
+          <span>Contents</span>
+          <span><i class="details-icon fa-solid fa-angle-right" aria-hidden="true"></i></span>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
-                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-            </a></div>
-    </div>
-</header><main class="main">
-                <div class="container"><div class="toc" id="toc-auto">
-            <h2 class="toc-title">Contents</h2>
-            <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Short Circuiting Part1</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Michael</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-07-30">2023-07-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;711 words&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
-        </div><div class="featured-image"><img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="/images/short.jpeg"
-        data-srcset="/images/short.jpeg, /images/short.jpeg 1.5x, /images/short.jpeg 2x"
-        data-sizes="auto"
-        alt="/images/short.jpeg"
-        title="/images/short.jpeg" width="4096" height="2926" /></div><div class="details toc" id="toc-static"  data-kept="">
-                <div class="details-summary toc-title">
-                    <span>Contents</span>
-                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
-                </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+        <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
     <li><a href="#logical-or-">Logical OR <code>||</code></a>
       <ul>
@@ -102,13 +145,13 @@ true || false // OUTPUT: true (1st value evaluated) false || true // OUTPUT: tru
     </li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h1 id="js-short-circuiting-to-shorten-your-code---part-1-logical-or">JS Short Circuiting to Shorten your Code - Part 1 (Logical OR)</h1>
+      </div><div class="content" id="content"><h1 id="js-short-circuiting-to-shorten-your-code---part-1-logical-or">JS Short Circuiting to Shorten your Code - Part 1 (Logical OR)</h1>
 <p>In JavaScript, we can utilize short-circuiting using <code>||</code> (logical OR) or the <code>&amp;&amp;</code> (logical AND) operators.
 This article focuses on the logical OR (<code>||</code>) operator and provides an example of how to use it to simplify code.</p>
 <h2 id="logical-or-">Logical OR <code>||</code></h2>
 <h3 id="examples">Examples</h3>
 <p>Try to guess and test them yourself</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kc">true</span> <span class="o">||</span> <span class="kc">false</span>    <span class="c1">// OUTPUT: true (1st value evaluated)
+<div class="highlight" id="id-1"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kc">true</span> <span class="o">||</span> <span class="kc">false</span>    <span class="c1">// OUTPUT: true (1st value evaluated)
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kc">false</span> <span class="o">||</span> <span class="kc">true</span>    <span class="c1">// OUTPUT: true (2nd value evaluated)
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kc">false</span> <span class="o">||</span> <span class="kc">false</span>   <span class="c1">// OUTPUT: false (2nd value evaluated)
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>
@@ -128,14 +171,14 @@ This article focuses on the logical OR (<code>||</code>) operator and provides a
 <p>The boolean OR <code>||</code> returns true or false when included in a boolean expression. The evaluation proceeds from left to right, and as soon as a definitive answer is obtained, the result is returned. The boolean OR is true if either the left operand or the right operand is true, or both are true. It will only return false when both operands are false. When the left operand evaluates to true, there is no need to continue the evaluation as the operation is short-circuited, and the return value will be true. Conversely, if the left operand is false, the right operand must be evaluated to determine the final result (true or false).</p>
 <p>Importantly, short-circuiting not only returns the boolean value but also the value of the evaluated operand. For example, when using <code>||</code>, if the left operand is a truthy value, the result will be the value of the left operand; otherwise, the result will be the value of the right operand. Understanding this behavior can be helpful in designing concise and efficient code.</p>
 <h3 id="falsy-values">Falsy values</h3>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kc">false</span>
+<div class="highlight" id="id-2"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kc">false</span>
 </span></span><span class="line"><span class="cl"><span class="mi">0</span>
 </span></span><span class="line"><span class="cl"><span class="kc">null</span>
 </span></span><span class="line"><span class="cl"><span class="kc">NaN</span>
 </span></span><span class="line"><span class="cl"><span class="kc">undefined</span>
 </span></span><span class="line"><span class="cl"><span class="s2">&#34;&#34;</span> <span class="c1">// empty string without space
 </span></span></span></code></pre></div><p>Everything that is not <code>falsy</code> is <code>truthy</code>, for example:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="c1">// truthy 
+<div class="highlight" id="id-3"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="c1">// truthy 
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="s2">&#34; &#34;</span> 
 </span></span><span class="line"><span class="cl"><span class="p">[]</span>
 </span></span><span class="line"><span class="cl"><span class="p">{}</span>
@@ -152,7 +195,7 @@ This article focuses on the logical OR (<code>||</code>) operator and provides a
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="o">!!</span><span class="kc">true</span><span class="p">)</span>     <span class="c1">// true
 </span></span></span></code></pre></div><h3 id="example-with-objects">Example with objects</h3>
 <p>Let&rsquo;s consider two objects, <code>person1</code> and <code>person2</code>:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="c1">// person1 has an age property
+<div class="highlight" id="id-4"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="c1">// person1 has an age property
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">let</span> <span class="nx">person1</span> <span class="o">=</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;Michael&#39;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">lastName</span><span class="o">:</span> <span class="s1">&#39;Smith&#39;</span><span class="p">,</span>
@@ -163,11 +206,10 @@ This article focuses on the logical OR (<code>||</code>) operator and provides a
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">let</span> <span class="nx">person2</span> <span class="o">=</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;Bob&#39;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">lastName</span><span class="o">:</span> <span class="s1">&#39;Wilson&#39;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></div><h3 id="use-case">Use Case:</h3>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div><h3 id="use-case">Use Case:</h3>
 <p>We might receive either <code>person1</code> or <code>person2</code> as arguments to a function and not know if the <code>age</code> property is defined for each object.
 If we need to perform calculations or operations involving <code>age</code>, we require a valid number.  However, <code>person2.age</code> would return <code>undefined</code> in this case, so we need a way to assign a default value to any object that lacks the <code>age</code> property:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="c1">// short-circuiting with || to provide default values for age
+<div class="highlight" id="id-5"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="c1">// short-circuiting with || to provide default values for age
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">let</span> <span class="nx">age1</span> <span class="o">=</span> <span class="nx">person1</span><span class="p">.</span><span class="nx">age</span> <span class="o">||</span> <span class="mi">0</span>
 </span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">age2</span> <span class="o">=</span> <span class="nx">person2</span><span class="p">.</span><span class="nx">age</span> <span class="o">||</span> <span class="mi">0</span>
 </span></span><span class="line"><span class="cl">
@@ -183,45 +225,45 @@ If <code>person1.age</code> is undefined or falsy (e.g., null, 0, an empty strin
 Similarly, if <code>person2.age</code> is not defined (<code>undefined</code>) or falsy, the <code>||</code> operator short-circuits and assigns the default value 0 to <code>age2</code>.</p>
 <h3 id="alternatives">Alternatives:</h3>
 <p>Instead of using the logical OR (<code>||</code>) operator, you could achieve the same result using the ternary operator (conditional operator):</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="c1">// the ternary operator allows you to explicitly check if the `age` property is defined for each person object,
+<div class="highlight" id="id-6"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="c1">// the ternary operator allows you to explicitly check if the `age` property is defined for each person object,
 </span></span></span><span class="line"><span class="cl"><span class="c1">// and if it is, use its value; otherwise, use the default value 0.
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kd">let</span> <span class="nx">age1</span> <span class="o">=</span> <span class="nx">person1</span><span class="p">.</span><span class="nx">age</span> <span class="o">!==</span> <span class="kc">undefined</span> <span class="o">?</span> <span class="nx">person1</span><span class="p">.</span><span class="nx">age</span> <span class="o">:</span> <span class="mi">0</span>
-</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">age2</span> <span class="o">=</span> <span class="nx">person2</span><span class="p">.</span><span class="nx">age</span> <span class="o">!==</span> <span class="kc">undefined</span> <span class="o">?</span> <span class="nx">person2</span><span class="p">.</span><span class="nx">age</span> <span class="o">:</span> <span class="mi">0</span>
-</span></span></code></pre></div></div><div class="post-footer" id="post-footer">
-    <div class="post-info">
-        <div class="post-info-line">
-            <div class="post-info-mod">
-                <span>Updated on 2023-07-30</span>
-            </div></div>
-        <div class="post-info-line">
-            <div class="post-info-md"></div>
-            <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://example.org/posts/short-circuiting-part1/" data-title="Short Circuiting Part1" data-via="xxxx"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://example.org/posts/short-circuiting-part1/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://example.org/posts/short-circuiting-part1/" data-title="Short Circuiting Part1"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://example.org/posts/short-circuiting-part1/" data-title="Short Circuiting Part1"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://example.org/posts/short-circuiting-part1/" data-title="Short Circuiting Part1" data-image="/images/short.jpeg"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
-            </div>
-        </div>
+</span></span><span class="line"><span class="cl"><span class="kd">let</span> <span class="nx">age2</span> <span class="o">=</span> <span class="nx">person2</span><span class="p">.</span><span class="nx">age</span> <span class="o">!==</span> <span class="kc">undefined</span> <span class="o">?</span> <span class="nx">person2</span><span class="p">.</span><span class="nx">age</span> <span class="o">:</span> <span class="mi">0</span></span></span></code></pre></div></div><div class="post-footer" id="post-footer">
+  <div class="post-info">
+    <div class="post-info-line">
+      <div class="post-info-mod">
+        <span title="Updated on 2023-07-30 00:29:37">Updated on 2023-07-30&nbsp;</span>
+      </div><div class="post-info-license">
+          <span><a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span>
+        </div></div>
+    <div class="post-info-line">
+      <div class="post-info-md"></div>
+      <div class="post-info-share">
+        <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://example.org/posts/short-circuiting-part1/" data-title="Short Circuiting Part1" data-via="frenchmike1"><i class="fa-brands fa-twitter fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://example.org/posts/short-circuiting-part1/"><i class="fa-brands fa-facebook-square fa-fw" aria-hidden="true"></i></a>
+  <a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://example.org/posts/short-circuiting-part1/" data-title="Short Circuiting Part1" data-image="/images/short.jpeg"><i class="fa-brands fa-weibo fa-fw" aria-hidden="true"></i></a>
+  </span>
+      </div>
     </div>
+  </div>
 
-    <div class="post-info-more">
-        <section class="post-tags"></section>
-        <section>
-            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
-        </section>
-    </div>
+  <div class="post-info-more">
+    <section class="post-tags"></section>
+    <section>
+      <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+    </section>
+  </div>
 
-    <div class="post-nav">
-            <a href="/posts/short-circuiting-part2/" class="next" rel="next" title="Short Circuiting Part2">Short Circuiting Part2<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+  <div class="post-nav">
+      <a href="/posts/short-circuiting-part2/" class="post-nav-item" rel="next" title="Short Circuiting Part2">Short Circuiting Part2<i class="fa-solid fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
-</article></div>
-            </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.115.3">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
-                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Michael</a></span></div>
-        </div>
-    </footer></div>
-
-        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
-                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
-            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
-                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
-            </a>
-        </div><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</article></main><footer class="footer">
+    <div class="footer-container"><div class="footer-line copyright" itemscope itemtype="http://schema.org/CreativeWork"><i class="fa-regular fa-copyright fa-fw" aria-hidden="true"></i>
+            <span itemprop="copyrightYear">2022 - 2023</span><span class="author" itemprop="copyrightHolder">
+              <a href="/">Michael</a></span></div><div class="footer-line statistics"></div></div>
+  </footer></div><div class="widgets"><div class="fixed-buttons animate__faster d-none"><div class="fixed-button back-to-top" role="button" aria-label="Back to Top"><i class="fa-solid fa-arrow-up fa-fw" aria-hidden="true"></i><span class="variant-numeric d-none">0%</span>
+        </div></div><div id="mask"></div><noscript>
+    <div class="noscript-warning">Theme FixIt works best with JavaScript enabled.</div>
+  </noscript>
+</div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="/lib/sharer/sharer.min.js" async defer></script><script src="/lib/katex/katex.min.js" defer></script><script src="/lib/katex/auto-render.min.js" defer></script><script src="/lib/katex/copy-tex.min.js" defer></script><script src="/lib/katex/mhchem.min.js" defer></script><script src="/lib/cookieconsent/cookieconsent.min.js" defer></script><script>window.config={"code":{"copyTitle":"Copy to clipboard","editLockTitle":"Lock editable code block","editUnLockTitle":"Unlock editable code block","editable":true,"maxShownLines":10},"comment":{"enable":false},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false}};</script><script src="/js/theme.min.js" defer></script></body>
 </html>

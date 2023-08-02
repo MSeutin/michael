@@ -1,14 +1,38 @@
 # site default theme ["auto", "light", "dark"]
 defaultTheme: "auto"
-gitRepo: ""
+gitRepo: "MSeutin"
 fingerprint: ""
 dateFormat: "2006-01-02"
-# website title for Open Graph and Twitter Cards
-title: "My site"
-# website description for RSS, SEO, Open Graph and Twitter Cards
-description: "This is me Michael"
-# website images for Open Graph and Twitter Cards
+title: "Michael Seutin - Indie Hacker, Math Enthusiast, Explorer"
+description: "Welcome to my digital space, where I explore mindset, success, math, and build web apps"
+keywords: ['Web Development', 'Math', 'Michael Seutin', 'CS', 'Mindset']
 images: []
+
+# Search config
+search:
+  enable: true
+  type: "lunr"
+  contentLength: 4000
+  placeholder: ""
+  maxResultLength: 10
+  snippetLength: 30
+  highlightTag: "em"
+  absoluteURL: false
+  algolia:
+    index: ""
+    appID: ""
+    searchKey: ""
+  fuse:
+    isCaseSensitive: false
+    minMatchCharLength: 2
+    findAllMatches: false
+    location: 0
+    threshold: 0.3
+    distance: 100
+    ignoreLocation: false
+    useExtendedSearch: false
+    ignoreFieldNorm: false
+
 
 # Header config
 header:
@@ -67,3 +91,10 @@ social:
   Gitlab: "MSeutin"
   Email: "frenchmike@gmail.com"
   RSS: false
+
+# github corner
+githubCorner:
+    enable: true
+    permalink: "https://github.com/MSeutin"
+    title: "View source on GitHub"
+    position: "right"

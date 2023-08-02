@@ -4,11 +4,12 @@ date: 2023-07-30T00:33:11-07:00
 draft: false
 featuredImage: /images/and.jpeg
 featuredImagePreview: /images/and.jpeg
-description:
-keywords:
+description: "JS Short Circuiting Concepts, And Operator"
+keywords: ["Web Development", "Short Circuiting", "JavaScript", "And Operator"]
 tags:
   - js
-categories: 
+categories:
+  - "web dev" 
 comment:
 seo:
 menu:

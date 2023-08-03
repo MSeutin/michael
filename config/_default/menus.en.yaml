@@ -1,12 +1,21 @@
 # Menu config
 main:
+  # BLOG
+  - identifier: blog
+    name: "blog"
+    url: /blog/
+    weight: 1
+    params:
+      icon: fa-solid fa-pen
   - identifier: posts
+    parent: blog
     name: "posts"
     url: /posts/
     weight: 1
     params:
       icon: fa-solid fa-pen
   - identifier: categories
+    parent: blog
     name: "categories"
     url: /categories/
     title: ""
@@ -14,44 +23,54 @@ main:
     params:
       icon: fa-regular fa-folder
   - identifier: tags
+    parent: blog
     name: "tags"
     url: /tags/
     weight: 3
     params:
       icon: fa-solid fa-tag
+  # TUTORING
+  - identifier: tutoring
+    name: "tutoring"
+    url: /tutoring/
+    weight: 2
+    params:
+      icon: fa-brands fa-space-awesome text-success
+  # APPS
   - identifier: apps
     name: "apps"
     url: /apps/
     weight: 4
     params:
       icon: fa-brands fa-app-store text-danger
+  # ABOUT
   - identifier: about
     name: "about"
     url: /about/
     weight: 5
     params:
       icon: fa-solid fa-circle-info
+  - identifier: michael
+    parent: about
+    name: "michael"
+    url: /about/michael/
+    weight: 10
+    params:
+      icon: fa-solid fa-bullseye
   - identifier: skills
     parent: about
     name: "skills"
     url: /about/skills/
-    weight: 10
+    weight: 12
     params:
       icon: fa-solid fa-chess-pawn
   - identifier: education
     parent: about
     name: "education"
     url: /about/education/
-    weight: 12
-    params:
-      icon: fa-solid fa-graduation-cap
-  - identifier: purpose
-    parent: about
-    name: "purpose"
-    url: /about/purpose/
     weight: 14
     params:
-      icon: fa-solid fa-bullseye
+      icon: fa-solid fa-graduation-cap
   - identifier: resume
     parent: about
     name: "resume"

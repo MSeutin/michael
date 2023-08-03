@@ -8,7 +8,34 @@
     <language>en</language>
     <managingEditor>frenchmike@gmail.com (Michael)</managingEditor>
     <webMaster>frenchmike@gmail.com (Michael)</webMaster>
-    <lastBuildDate>Wed, 02 Aug 2023 02:08:27 -0700</lastBuildDate><atom:link href="http://example.org/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Aug 2023 21:19:43 -0700</lastBuildDate><atom:link href="http://example.org/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Purpose</title>
+      <link>http://example.org/about/purpose/</link>
+      <pubDate>Wed, 02 Aug 2023 21:19:43 -0700</pubDate>
+      <author>frenchmike@gmail.com (Michael)</author>
+      <guid>http://example.org/about/purpose/</guid>
+      <description>Purpose this is my purposeless purpose</description>
+    </item>
+    
+    <item>
+      <title>Education</title>
+      <link>http://example.org/about/education/</link>
+      <pubDate>Wed, 02 Aug 2023 21:19:20 -0700</pubDate>
+      <author>frenchmike@gmail.com (Michael)</author>
+      <guid>http://example.org/about/education/</guid>
+      <description>Education this is my non educated education</description>
+    </item>
+    
+    <item>
+      <title>Skills</title>
+      <link>http://example.org/about/skills/</link>
+      <pubDate>Wed, 02 Aug 2023 21:18:38 -0700</pubDate>
+      <author>frenchmike@gmail.com (Michael)</author>
+      <guid>http://example.org/about/skills/</guid>
+      <description>Skills hello my skills are skilless</description>
+    </item>
+    
     <item>
       <title>Resume</title>
       <link>http://example.org/about/resume/</link>

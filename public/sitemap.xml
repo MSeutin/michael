@@ -2,8 +2,14 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
   ><url>
-      <loc>http://example.org/</loc><lastmod>2023-08-02T02:08:27-07:00</lastmod></url><url>
-      <loc>http://example.org/about/</loc><lastmod>2023-08-02T02:08:27-07:00</lastmod></url><url>
+      <loc>http://example.org/posts/short-circuiting-part1/</loc><lastmod>2023-07-30T00:29:37-07:00</lastmod></url><url>
+      <loc>http://example.org/apps/</loc><lastmod>2023-08-02T21:21:15-07:00</lastmod></url><url>
+      <loc>http://example.org/</loc><lastmod>2023-08-02T21:19:43-07:00</lastmod></url><url>
+      <loc>http://example.org/about/</loc><lastmod>2023-08-02T21:19:43-07:00</lastmod></url><url>
+      <loc>http://example.org/about/purpose/</loc><lastmod>2023-08-02T21:19:43-07:00</lastmod></url><url>
+      <loc>http://example.org/about/education/</loc><lastmod>2023-08-02T21:19:20-07:00</lastmod></url><url>
+      <loc>http://example.org/about/skills/</loc><lastmod>2023-08-02T21:18:38-07:00</lastmod></url><url>
+      <loc>http://example.org/blog/</loc><lastmod>2023-08-02T21:15:40-07:00</lastmod></url><url>
       <loc>http://example.org/about/resume/</loc><lastmod>2023-08-02T02:08:27-07:00</lastmod></url><url>
       <loc>http://example.org/categories/</loc><lastmod>2023-07-30T00:33:11-07:00</lastmod></url><url>
       <loc>http://example.org/tags/js/</loc><lastmod>2023-07-30T00:33:11-07:00</lastmod></url><url>
@@ -11,5 +17,4 @@
       <loc>http://example.org/posts/short-circuiting-part2/</loc><lastmod>2023-07-30T00:33:11-07:00</lastmod></url><url>
       <loc>http://example.org/tags/</loc><lastmod>2023-07-30T00:33:11-07:00</lastmod></url><url>
       <loc>http://example.org/categories/web-dev/</loc><lastmod>2023-07-30T00:33:11-07:00</lastmod></url><url>
-      <loc>http://example.org/categories/mindset/</loc><lastmod>2023-07-30T00:29:37-07:00</lastmod></url><url>
-      <loc>http://example.org/posts/short-circuiting-part1/</loc><lastmod>2023-07-30T00:29:37-07:00</lastmod></url></urlset>
+      <loc>http://example.org/categories/mindset/</loc><lastmod>2023-07-30T00:29:37-07:00</lastmod></url></urlset>

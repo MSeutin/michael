@@ -10,12 +10,12 @@
     <webMaster>frenchmike@gmail.com (Michael)</webMaster>
     <lastBuildDate>Wed, 02 Aug 2023 21:19:43 -0700</lastBuildDate><atom:link href="http://example.org/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Purpose</title>
-      <link>http://example.org/about/purpose/</link>
+      <title>Michael</title>
+      <link>http://example.org/about/michael/</link>
       <pubDate>Wed, 02 Aug 2023 21:19:43 -0700</pubDate>
       <author>frenchmike@gmail.com (Michael)</author>
-      <guid>http://example.org/about/purpose/</guid>
-      <description>Purpose this is my purposeless purpose</description>
+      <guid>http://example.org/about/michael/</guid>
+      <description>Michael this is my purposeless purpose</description>
     </item>
     
     <item>

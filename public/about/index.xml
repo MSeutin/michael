@@ -37,14 +37,17 @@
     </item>
     
     <item>
-      <title>Resume</title>
+      <title></title>
       <link>http://example.org/about/resume/</link>
       <pubDate>Wed, 02 Aug 2023 02:08:27 -0700</pubDate>
       <author>frenchmike@gmail.com (Michael)</author>
       <guid>http://example.org/about/resume/</guid>
-      <description>my resume I am Michael
-Summary Add a summary of your skills, experience, and expertise here.
-Education Bachelor&amp;rsquo;s Degree in XYZ from ABC University Work Experience Job 1: Job Title, Company Name, Date Range Job 2: Job Title, Company Name, Date Range Skills Skill 1 Skill 2 Skill 3 </description>
+      <description>Michael Seutin Passionate Web Developer &amp;amp; Math Enthusiast
+EDUCATION Bachelor Degree in Computer Science 2019 - Present
+graduation summer 2024 Coursework: Operating Systems, Web Dev, 3D Graphics, Machine Learning, C++, Python, JS, React, Mathematics.
+Bachelor Degree in Mathematics 2019 - Present
+graduation summer 2025 Coursework: Calculus, Differential Equations, Linear Algebra, Math Computing, Proofs.
+Other Degrees AA Degree in Computer Science: 2021 Licenced Vocational Nurse: 2005 ENTREPRENEUR Full time student since 2018.</description>
     </item>
     
   </channel>

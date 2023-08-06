@@ -14,4 +14,13 @@ menu:
 repost:
 ---
 # Michael
-this is my purposeless purpose
+## Mindset
+
+## Habits
+
+## Aspirations
+
+## Links
+- blogs
+- freelance web developer
+- math tutoring

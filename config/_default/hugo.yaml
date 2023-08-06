@@ -1,8 +1,10 @@
 baseURL: http://example.org/
 theme: FixIt
 
+
 languageCode: en
 languageName: English
+enableEmoji: true
 
 # Author config
 author:
@@ -10,6 +12,7 @@ author:
   email: "frenchmike@gmail.com"
   link: ""
   avatar: "/images/emoticon.png"
+
 
 # Markup related configuration in Hugo
 markup:

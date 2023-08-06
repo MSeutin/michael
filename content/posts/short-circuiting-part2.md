@@ -10,10 +10,6 @@ tags:
   - js
 categories:
   - "web dev" 
-comment:
-seo:
-menu:
-repost:
 ---
 
 ## Part 2 (logical AND)

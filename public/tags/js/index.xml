@@ -5,18 +5,6 @@
     <description>js - Tag - </description>
     <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>frenchmike@gmail.com (Michael)</managingEditor>
       <webMaster>frenchmike@gmail.com (Michael)</webMaster><lastBuildDate>Sun, 30 Jul 2023 00:33:11 -0700</lastBuildDate><atom:link href="http://example.org/tags/js/" rel="self" type="application/rss+xml" /><item>
-  <title>Short Circuiting Part1</title>
-  <link>http://example.org/posts/short-circuiting-part1/</link>
-  <pubDate>Sun, 30 Jul 2023 00:29:37 -0700</pubDate>
-  <author>Michael</author>
-  <guid>http://example.org/posts/short-circuiting-part1/</guid>
-  <description><![CDATA[<div class="featured-image">
-        <img src="/images/short.jpeg" referrerpolicy="no-referrer">
-      </div>JS Short Circuiting to Shorten your Code - Part 1 (Logical OR) In JavaScript, we can utilize short-circuiting using || (logical OR) or the &amp;&amp; (logical AND) operators. This article focuses on the logical OR (||) operator and provides an example of how to use it to simplify code.
-Logical OR || Examples Try to guess and test them yourself
-true || false // OUTPUT: true (1st value evaluated) false || true // OUTPUT: true (2nd value evaluated) false || false // OUTPUT: false (2nd value evaluated) // other variants of the above 3.]]></description>
-</item>
-<item>
   <title>Short Circuiting Part2</title>
   <link>http://example.org/posts/short-circuiting-part2/</link>
   <pubDate>Sun, 30 Jul 2023 00:33:11 -0700</pubDate>
@@ -27,6 +15,18 @@ true || false // OUTPUT: true (1st value evaluated) false || true // OUTPUT: tru
       </div>Part 2 (logical AND) In JavaScript, we can utilize short-circuiting using || (logical OR) or the &amp;&amp; (logical AND) operators. This article focuses on the logical AND (&amp;&amp;) operator and provides examples.
 Logical AND &amp;&amp; Examples Try to guess and test them yourself
 true &amp;&amp; false // OUTPUT: false (2nd value eval) false &amp;&amp; true // OUTPUT: false (1st value eval) true &amp;&amp; true // OUTPUT: true (2nd value eval) // other variants of the above &#34;&#34; &amp;&amp; &#34;michael&#34; // OUTPUT: &#34;&#34; (1st value eval) !]]></description>
+</item>
+<item>
+  <title>Short Circuiting Part1</title>
+  <link>http://example.org/posts/short-circuiting-part1/</link>
+  <pubDate>Sun, 30 Jul 2023 00:29:37 -0700</pubDate>
+  <author>Michael</author>
+  <guid>http://example.org/posts/short-circuiting-part1/</guid>
+  <description><![CDATA[<div class="featured-image">
+        <img src="/images/short.jpeg" referrerpolicy="no-referrer">
+      </div>JS Short Circuiting to Shorten your Code - Part 1 (Logical OR) In JavaScript, we can utilize short-circuiting using || (logical OR) or the &amp;&amp; (logical AND) operators. This article focuses on the logical OR (||) operator and provides an example of how to use it to simplify code.
+Logical OR || Examples Try to guess and test them yourself
+true || false // OUTPUT: true (1st value evaluated) false || true // OUTPUT: true (2nd value evaluated) false || false // OUTPUT: false (2nd value evaluated) // other variants of the above 3.]]></description>
 </item>
 </channel>
 </rss>

@@ -10,11 +10,6 @@ tags:
   - js
 categories:
   - mindset
-comment:
-seo:
-menu:
-repost:
-weight: 1
 ---
 
 # JS Short Circuiting to Shorten your Code - Part 1 (Logical OR)

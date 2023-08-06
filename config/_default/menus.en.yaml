@@ -1,21 +1,14 @@
 # Menu config
 main:
-  # BLOG
-  - identifier: blog
-    name: "blog"
-    url: /blog/
-    weight: 1
-    params:
-      icon: fa-solid fa-pen
+  # POSTS
   - identifier: posts
-    parent: blog
     name: "posts"
     url: /posts/
     weight: 1
     params:
       icon: fa-solid fa-pen
   - identifier: categories
-    parent: blog
+    parent: posts
     name: "categories"
     url: /categories/
     title: ""
@@ -23,7 +16,7 @@ main:
     params:
       icon: fa-regular fa-folder
   - identifier: tags
-    parent: blog
+    parent: posts
     name: "tags"
     url: /tags/
     weight: 3

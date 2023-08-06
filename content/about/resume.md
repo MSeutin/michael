@@ -1,4 +1,5 @@
 ---
+title: Resume
 date: 2023-08-02T02:08:27-07:00
 draft: false
 featuredImage:

@@ -1,0 +1,14 @@
+{{- define "content" -}}
+  <style>
+    .post-title {
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+  {{ range where .Site.RegularPages "Section" "posts" }}
+        <article>
+            <a href="{{ .Permalink }}" class="post-title">{{ .Title }}</a>
+        </article>
+        <br>
+  {{ end }}
+{{ end }}
